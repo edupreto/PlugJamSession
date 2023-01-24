@@ -4,7 +4,7 @@
 
 body {
    margin: 0;
-   @apply bg-gray-900 text-gray-100;
+   @apply bg-gray-700 text-gray-100;
   
 }
 
@@ -28,4 +28,16 @@ body {
 
 .to-orange-500 {
   --tw-gradient-to: #EE9919;
+}
+
+.btn_1 {
+  
+  background: none;
+  padding: .25rem 1rem;
+  border: double 2px transparent;
+  border-image-slice: 1;
+  border-width: 1px; 
+  border-radius: 4px;
+  border-image-source:  linear-gradient(to right, #E41DC4, #1D85E4, #77AD8A, #E4DC1D);
+
 }

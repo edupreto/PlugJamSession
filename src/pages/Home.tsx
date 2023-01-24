@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer";
 import { Header } from "../components/Header";
 import { NavButton } from "../components/NavButton";
 import { Sidebar } from "../components/Sidebar";
@@ -12,7 +13,12 @@ export function Home() {
         <Video />
         <Sidebar />
       </main>
+      <div>
 
+      </div>
+      <div>
+        <Footer />
+      </div>
     </div>
   )
 }
